@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Emprendimiento</title>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+
+                    <h2><img class="logo-gatito" data-src="assets/img/gatito.png"> <span class="rojo">Hec</span><span>ho
+                            a m</span><span class="rojo">ano </span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="index.html">Inicio</a>
+                    <a href="sobrenosotros.html">Sobre Nosotros</a>
+                    <a href="productos.html">Productos</a>
+                    <!-- <a href="#">Chef</a> -->
+                    <a href="contactanos.html">Contacto</a>
+                </nav>
+                <!-- ES UN DIV DENTRO DEL NAV  -->
+
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>Hecho a Mano!</h2>
+                    <a href="#bienvenido" class="btn bordes">Bienvenid@</a>
+                </div>
+                <!-- <video autoplay loop muted> -->
+                <div class="video">
+                    <img data-src="assets/img/fondo3.jpg" alt="">
+                </div>
+                <!-- <source src="assets/img/fondo1.jpg"> -->
+                <!-- </video> -->
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor" id="bienvenido">
+        <div class="texto-nosotros">
+            <p class="bienvenida "><span class="rojo">Te damos la bienvenida a:</span></p>
+            <h1>"Hecho a Mano"!</h1>
+            <p>Es una tienda online, hecho por peruanos y peruanas. Nuestros productos son artesaneles que buscan captar
+                la atención del cliente. El talento y/o creatividad del peruano nos interesa al igual cómo su
+                conformidad y su interes.
+            </p>
+            <a href="contactanos.html" class="btn btn-rojo pointer{
+                cursor: pointer;
+                } ">Contactar</a>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagen1">
+                <img data-src="assets/img/peru1.jpg" alt="peru1">
+            </div>
+            <div class="imagenes2">
+                <img data-src="assets/img/peru2.jpg" alt="peru2">
+                <img data-src="assets/img/peru3.jpg" alt="peru3">
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN Y COMIENZO DE CONTENEDORES PRODUCTOS -->
+    -
+    <section class="menu contenedor">
+        <h1 class="texto-platillos">Productos</h2>
+        <div class="botones-platillos">
+            <button class="todos btn btn-verde pointer">Todos</button>
+            <button class="muñecos btn btn-verde pointer">Muñequitos</button>
+            <button class="collar btn btn-verde pointer">Collares</button>
+            <button class="anillo btn btn-verde pointer">Anillos</button>
+            <button class="libretas btn btn-verde pointer">Libretas</button>
+            <button class="llaveros btn btn-verde pointer">Llaveros</button>
+        </div>
+
+        <div class="productos">
+
+
+
+            <!-- MUÑECOS -->
+            <div class="productos">
+                <div class="producto" data-producto="muñeco">
+                    <img data-src="assets/img/muñequito.jpg" alt="muñeco">
+                    <h2>Muñeco de Naruto</h2>
+                    <p>Elaborado totalmente de arcilla por la artista y youtuber arequipeña "Micaela_Art". Son piezas
+                        originales e ilimitadas.</p>
+                    <div class="precio">
+                        <p>$25.0</p>
+                        <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="productos">
+                <div class="producto" data-producto="muñeco">
+                    <img data-src="assets/img/muñequito2.jpg" alt="muñeco">
+                    <h2>Muñeca de Nezuko</h2>
+                    <p>Elaborado totalmente de arcilla por la artista y youtuber arequipeña "Micaela_Art". Son piezas
+                        originales e ilimitadas.</p>
+                    <div class="precio">
+                        <p>$25.0</p>
+                        <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="producto" data-producto="muñeco">
+                <img data-src="assets/img/muñequito3.jpg" alt="muñeco">
+                <h2>Muñequitos 2x1</h2>
+                <p>Realizado totalmente de arcilla por la conocida artista, cantante y youtuber "Piyoasdf". Recordar que
+                    son piezas originales e ilimitadas. Si quieres ver más de su arte, siguela a través de sus redes
+                    sociales: <a href="https://www.youtube.com/@piyoasdf" target="_blank">Youtube</a>, <a
+                        href="https://www.instagram.com/piyoasdf/" target="_blank">Instagram </a>y <a
+                        href="https://twitter.com/Piyoasdf" target="_blank">Twitter</a>.</p>
+                <div class="precio">
+                    <p>$45.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="muñeco">
+                <img data-src="assets/img/muñequito4.jpg" alt="muñeco">
+                <h2>Muñeco de Tanjiro</h2>
+                <p> Figuritas Coleccionables.</p>
+                <div class="precio">
+                    <p>$25.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="muñeco">
+                <img data-src="assets/img/muñequito5.jpg" alt="muñeco">
+                <h2>Animales (arcilla)</h2>
+                <p>Figura de Nezuko.</p>
+                <div class="precio">
+                    <p>$15.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="muñeco">
+                <img data-src="assets/img/muñequito6.jpg" alt="muñeco">
+                <h2>Muñeco de Izuku</h2>
+                <p> Figuritas Coleccionables.</p>
+                <div class="precio">
+                    <p>$45.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+
+            <!-- FIN MUÑECOS -->
+
+
+            <!-- COLLARES -->
+            <div class="producto" data-producto="collar">
+                <img data-src="assets/img/collares.webp" alt="collar">
+                <h2>Collar "Princess"</h2>
+                <p>Elaborado con las formas de mariposa, perlas y accesorios extra.</p>
+                <div class="precio">
+                    <p>$50.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="collar">
+                <img data-src="assets/img/collares2.jpg" alt="collar">
+                <h2>Collar de Plata "Artemisa"</h2>
+                <p>Elaborado con las formas de candado, dados, conejo e imperdible.</p>
+                <div class="precio">
+                    <p>$70.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="collar">
+                <img data-src="assets/img/collares3.webp" alt="collar">
+                <h2>Collar de corazón</h2>
+                <p>Collar en forma de Corazon de Oro para fotografias (imagenes no incluidas).</p>
+                <div class="precio">
+                    <p>$48.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="collar">
+                <img data-src="assets/img/collar4.jpg" alt="collar">
+                <h2>Collar "Queen"</h2>
+                <p>Mariposa,Perlas, accesorio extra.</p>
+                <div class="precio">
+                    <p>$50.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="collar">
+                <img data-src="assets/img/collar5.jpg" alt="collar">
+                <h2>Collar "Yin y yang"</h2>
+                <p>Candado,Dados,Conejo,Imperdible.</p>
+                <div class="precio">
+                    <p>$42.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="collar">
+                <img data-src="assets/img/collar6.jpg" alt="collar">
+                <h2>Collar con mariposa</h2>
+                <p>Collar en forma de Corazon de Oro para fotografias (imagenes no incluidas).</p>
+                <div class="precio">
+                    <p>$36.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <!-- FIN COLLARES -->
+
+
+            <!-- ANILLOS -->
+            <div class="producto" data-producto="anillo">
+                <img data-src="assets/img/anillos.jpg" alt="anillo">
+                <h2>Anillo Candado</h2>
+                <p>Anillo de plata Candado con accesorio incluido.</p>
+                <div class="precio">
+                    <p>$35.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="anillo">
+                <img data-src="assets/img/anillos2.jfif" alt="anillo">
+                <h2>Anillo de Corazones</h2>
+                <p>Anillo de corazones verde u oro (anillos por separado).</p>
+                <div class="precio">
+                    <p>$10.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="anillo">
+                <img data-src="assets/img/anillos3.jpg" alt="anillo">
+                <h2>Anillos Mal de Ojo y Flor</h2>
+                <p>Anillos en forma de flor color celeste y mal de ojo (anillos por separado).</p>
+                <div class="precio">
+                    <p>$12.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="anillo">
+                <img data-src="assets/img/anillos4.jpg" alt="anillo">
+                <h2>Anillo "Love"</h2>
+                <p>Anillo de plata con candado y accesorio incluido.</p>
+                <div class="precio">
+                    <p>$28.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="anillo">
+                <img data-src="assets/img/anillos5.jpg" alt="anillo">
+                <h2>Anillo "Reputation</h2>
+                <p>Anillo hecho de plata con diferentes diseños (se venden por separado).</p>
+                <div class="precio">
+                    <p>$24.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="anillo">
+                <img data-src="assets/img/anillos6.jpg" alt="anillo">
+                <h2>Anillo artesanales</h2>
+                <p>Elaborados a través de arcilla con diferentes diseños (se vende por separado).</p>
+                <div class="precio">
+                    <p>$30.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <!-- FIN ANILLOS-->
+
+            <!-- LIBRETAS -->
+            <div class="producto" data-producto="libreta">
+                <img data-src="assets/img/cuaderno.avif" alt="libreta">
+                <h2>Butterflies notebooks</h2>
+                <p>Estas libretas mariposa elaboradas a mano. Por ello, solo existe este diseño. Hecho por la artista
+                    limeña "Andrea".</p>
+                <div class="precio">
+                    <p>$21.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="libreta">
+                <img data-src="assets/img/cuaderno2.webp" alt="libreta">
+                <h2>Libreta Margarita Carita Feliz</h2>
+                <p>Libreta Margarita en forma de Carita Feliz de color Anaranjado.</p>
+                <div class="precio">
+                    <p>$18.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="libreta">
+                <img data-src="assets/img/cuaderno3.jpg" alt="libreta">
+                <h2>Libreta Mariposa</h2>
+                <p>Libreta Mariposa color Beige.</p>
+                <div class="precio">
+                    <p>$15.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="libreta">
+                <img data-src="assets/img/cuaderno4.jpg" alt="libreta">
+                <h2>Libreta Margarita Carita Feliz</h2>
+                <p>Libreta Margarita en forma de Carita Feliz de color Anaranjado.</p>
+                <div class="precio">
+                    <p>$24.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+
+            <div class="producto" data-producto="libreta">
+                <img data-src="assets/img/cuaderno5.jpg" alt="libreta">
+                <h2>Libretas de colores</h2>
+                <p>Notebooks con hojas cuadriculares, tapa dura y de colores (se vende por separado).</p>
+                <div class="precio">
+                    <p>$25.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+
+            <div class="producto" data-producto="libreta">
+                <img data-src="assets/img/cuaderno6.jpg" alt="libreta">
+                <h2> </h2>
+                <p>.</p>
+                <div class="precio">
+                    <p>$21.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <!-- FIN LIBRETAS -->
+
+            <!-- LLAVEROS -->
+            <div class="producto" data-producto="llavero">
+                <img data-src="assets/img/llavero1.jpg" alt="llavero">
+                <h2>Anime</h2>
+                <p>Muñeco de Naruto hecho a mano.</p>
+                <div class="precio">
+                    <p>$10.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="llavero">
+                <img data-src="assets/img/llavero2.jpg" alt="llavero">
+                <h2>Gatitos (arcilla)</h2>
+                <p>Muñeco de Demon Slayer del Ninja Tanjirou de arcilla.</p>
+                <div class="precio">
+                    <p>$12.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="llavero">
+                <img data-src="assets/img/llavero3.jpg" alt="llavero">
+                <h2>Llavero "Rock"</h2>
+                <p>Muñeco de Kitmesu no Yaiba.</p>
+                <div class="precio">
+                    <p>$14.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="llavero">
+                <img data-src="assets/img/llavero4.jpg" alt="llavero">
+                <h2>Llavero "Bunny"</h2>
+                <p>Muñeco de Zenitsu Agatsuma hecho de arcilla.</p>
+                <div class="precio">
+                    <p>$21.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="llavero">
+                <img data-src="assets/img/llavero5.jpg" alt="llavero">
+                <h2> </h2>
+                <p>Medusitas</p>
+                <div class="precio">
+                    <p>$23.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <div class="producto" data-producto="llavero">
+                <img data-src="assets/img/llavero6.jpg" alt="llavero">
+                <h2>Llavero "Luna"</h2>
+                <p>Muñeco de Naruto hecho a mano.</p>
+                <div class="precio">
+                    <p>$15.0</p>
+                    <a href="productos.html"><button><i class="fas fa-shopping-basket"></i></button></a>
+                </div>
+            </div>
+            <!-- FIN LLAVEROS -->
+        </div>
+
+
+
+    </section>
+    <br><br>
+
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>HECHO A MANO </h2>
+            <p>¿Aburrimiento?,¿Sin saber que Comprar?, Aqui te tenemos la Solucion con tan solo una llamada, tu pedido
+                llegara hasta la puerta de tu casa en tan solo segundos!!</p>
+            <a href="productos.html" class="btn btn-verde  pointer">Ordenar ahora</a>
+        </div>
+    </div>
+
+    <section class="chef contenedor">
+        <h2>CREADORAS</h2>
+        <div class="contenido-chef">
+            <div class="texto-chef">
+                <h3> «Me gustan las personas que tienen que luchar para obtener algo. Los que, teniéndolo todo en
+                    contra, salen adelante. Esta es la gente que me fascina. La gente fuerte»
+                </h3>
+                <p>Esta pagina fue creada por 3 jovenes con un talento asombroso hacia la tecnologia, muchas veces se
+                    nos han considerado como poco inteligentes o que una mujer solo podria servir para los servicios
+                    domesticos en el hogar, buscamos la concientizacion y alentar a mas jovenes como nosotras a que se
+                    informen y estudien la rama de computacion, informatica, tecnologia, entre otras plataformas de
+                    redes sociales, Recuerda que tu puedes lograrlo SOLA, que puedes obtener todo lo que deseas SOLA,
+                    gracias.
+
+                    ATTE: JAMELY, XIOMARA Y YASSIRA.</p>
+                <a href="sobrenosotros.html" class="btn btn-verde pointer">Leer Bíografia</a>
+            </div>
+            <div class="imagen-chef">
+                <img data-src="https://img.whaleshares.io/wls-img/softuno84/94c5766f7a184332aa5f8f3102058876c34c736c.jpeg"
+                    alt="fotografia del chef">
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+
+    <div class="pie-pagina ">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Dirección</h3>
+                <p>Tienda totalmente online</p>
+            </div>
+            <div class="info">
+                <h3>Días especiales</h3>
+                <p>Sabados y Jueves 7am - 11pm</p>
+                <p>+51 23410921</p>
+            </div>
+            <div class="info">
+                <h3>Horario de atención</h3>
+                <p>Lunes - Domingo 7am - 11pm</p>
+                <div class="redes-sociales redes-pie">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-square pointer"></i></a>
+                    <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square pointer"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram pointer"></i></a>
+                </div>
+            </div>
+            <div class="info">
+                <h3>Noticias</h3>
+                <p>suscribete para recibir más noticias</p>
+                <form action="https://formsubmit.co/noeliachaconpimentel@gmail.com" method="POST">
+                    <input type="hidden" name="_autoresponse"
+                        value="Gracias por suscribirte a hecho a mano, ahora recibiras todas las noticias y promociones especiales de nuestra pagina web ">
+                    <input type="email" name="email" placeholder="Dirección de correo electrónico" required>
+                    <button type="submit" class="btn btn-verde pointer">Suscribirse</button>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; 2023 Hecho a Mano, desarrollado por Yassira, Noelia y Xiomara </p>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,303 @@
+:root {
+    --verde: #881014;
+    --blanco: #fff;
+    --rojo: #881014;
+    --oscuro: #000;
+    --titulos: 'Arima Madurai', cursive;
+    --parrafos: 'Mulish', sans-serif;
+}
+
+body {
+    cursor: url(../assets/img/cursor1.png),
+    auto;
+}
+a:hover{
+    cursor: url(../assets/img/cursor-hover1.png),
+    auto;
+}
+
+.lista{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+
+
+.logo-gatito {
+    height: 65px;
+    
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+
+    font-size: 1.6rem;
+    overflow-x: hidden;
+}
+
+
+
+/*globales*/
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+    width: 95%;
+}
+
+h1,
+h2 {
+    font-family: var(--titulos);
+}
+
+h3,
+p,
+a {
+    font-family: var(--parrafos);
+}
+
+
+.verde {
+    color: var(--verde);
+}
+
+.rojo {
+    color: var(--rojo);
+}
+
+.ocultar {
+    display: none;
+}
+
+.btn-cerrar {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--blanco);
+    position: absolute;
+    top: 0;
+    right: 50px;
+    user-select: none;
+
+}
+
+
+/*encabezado*/
+.contenedor-navegacion {
+    background-color: var(--oscuro);
+    position: relative;
+    z-index: 5;
+
+}
+
+.contenido-navegacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.logo h2,
+.navegacion a {
+    color: var(--blanco);
+}
+
+
+
+.navegacion a {
+    text-decoration: none;
+    font-size: 2.2rem;
+    padding: 1.5rem;
+    padding-left: 4rem;
+    display: block;
+    transition: color .3s ease-in-out;
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    .navegacion a {
+        text-align: left;
+    }
+}
+
+
+.navegacion a:nth-child(even):hover {
+    color: var(--rojo);
+}
+
+.navegacion a:nth-child(odd):hover {
+    color: var(--verde);
+}
+
+.navegacion a:first-of-type {
+    margin-top: 5rem;
+}
+
+.navegacion {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+    width: 40rem;
+    padding: 3rem 4rem;
+    background-color: var(--oscuro);
+    animation: desplazamiento .5s ease-in-out;
+}
+
+.hamburguesa:hover {
+    cursor: pointer;
+}
+
+.hamburguesa span {
+    background-color: var(--blanco);
+    display: block;
+    width: 5rem;
+    height: .5rem;
+    margin-bottom: .5rem;
+}
+
+
+.separador {
+    background-image: url('../assets/img/fondo-sobre.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: index 2;
+
+}
+
+
+.contenido-separador {
+    padding: 5rem;
+}
+
+.contenido-separador h2 {
+    font-size: 4rem;
+    color: var(--blanco);
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    .contenido-separador h2 {
+        text-align: left;
+        font-size: 5rem;
+        color: var(--blanco);
+    }
+}
+
+.contenido-separador p {
+    color: var(--blanco);
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media(min-width: 768px) {
+    .contenido-separador p {
+        text-align: left;
+    }
+}
+
+/*seccion del chef*/
+.chef h2 {
+    background-color: var(--rojo);
+    display: inline-block;
+    padding: 1rem 3rem;
+    color: var(--blanco);
+    font-size: 4rem;
+}
+
+@media(min-width: 768px) {
+    .contenido-chef {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.texto-chef,
+.imagen-chef {
+    flex: 0 0 calc(50% - 1rem);
+}
+
+.texto-chef h3 {
+    font-size: 3rem;
+
+}
+
+.texto-chef p {
+    font-size: 2rem;
+
+}
+
+.formulario-contacto {
+    padding-top: 5rem;
+}
+
+
+
+
+
+
+.pie-pagina {
+    margin-top: 5rem;
+    background-color: rgb(20, 20, 20);
+    padding: 5rem;
+}
+
+@media(min-width:768px) {
+    .contenedor-piepagina {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+.info {
+    flex: 0 0 calc(25% - 1rem);
+    margin-bottom: 2rem;
+}
+
+.info h3,
+.info p {
+    color: var(--blanco);
+    text-align: center;
+}
+
+.info h3 {
+    font-size: 2.2rem;
+}
+
+.info p {
+    font-size: 1.8rem;
+}
+
+.redes-pie {
+    text-align: center;
+}
+
+.info input[type="email"] {
+    font-family: var(--parrafos);
+    display: inline-block;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+}
+
+.info input[type="submit"] {
+    padding: .5rem 2rem;
+    font-size: 1.8rem;
+    border-radius: 0;
+}
+
+.footer {
+    text-align: center;
+    background-color: var(--oscuro);
+    color: var(--blanco);
+    padding: 2rem;
+    font-size: 2rem;
+}

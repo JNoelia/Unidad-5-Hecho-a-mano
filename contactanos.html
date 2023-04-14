@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+
+                    <h2><img class="logo-gatito" data-src="assets/img/gatito.png"> <span class="rojo">Hec</span><span>ho
+                            a m</span><span class="rojo">ano </span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="index.html">Inicio</a>
+                    <a href="sobrenosotros.html">Sobre Nosotros</a>
+                    <a href="productos.html">Productos</a>
+                    <a href="contactanos.html">Contacto</a>
+                </nav>
+                <!-- ES UN DIV DENTRO DEL NAV  -->
+
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+    
+    </header>
+
+    <div class="formulario-contacto contenedor">
+
+        <div class="informacion-contacto">
+            <h3>Contactanos</h3>
+            <p><i class="fas fa-map-marker-alt"></i>23. Roma Italia 75012</p>
+            <p><i class="fas fa-envelope"></i> luca@turilli.it</p>
+            <p><i class="fas fa-phone-alt"></i>+31123410921</p>
+            <div class="redes-sociales">
+
+                <a href="https://www.facebook.com/"><i class="fab fa-facebook-square pointer"></i></a>
+                <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square pointer"></i></a>
+                <a href="https://www.instagram.com/"><i class="fab fa-instagram pointer"></i></a>
+
+            </div>
+        </div>
+
+        <form target="_blank" class="formulario" action="https://formsubmit.co/noeliachaconpimentel@gmail.com"
+        method="POST">
+        <div class="input-formulario">
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Escribe aquí" name="nombre" required>
+        </div>
+
+        <div class="input-formulario">
+            <label for="apellidos">Apellido</label>
+            <input type="text" placeholder="Escribe aquí" name="apellidos" required>
+        </div>
+
+        <div class="input-formulario">
+            <label for="correo">Correo</label>
+            <input type="email" placeholder="Escribe aquí tu correo " name="correo" required>
+        </div>
+
+        <div class="input-formulario">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" placeholder="+90 543 779 9410" name="telefono">
+        </div>
+
+        <div class="input-formulario">
+            <label for="mensaje">Mensaje</label>
+            <textarea type="textarea" name="mensaje" required></textarea>
+        </div>
+
+        <div class="btn-formulario">
+            <input type="submit" class="btn btn-verde" value="Enviar">
+        </div>
+        <input type="hidden" name="_next" value="http://127.0.0.1:5501/index.html">
+
+    </form>
+    </div>
+
+    <div class="pie-pagina">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Dirección</h3>
+                <p>Tienda totalmente online</p>
+            </div>
+            <div class="info">
+                <h3>Días especiales</h3>
+                <p>Sabados y Jueves 7am - 11pm</p>
+                <p>+51 23410921</p>
+            </div>
+
+            <div class="info">
+                <h3>Horario de atención</h3>
+                <p>Lunes - Domingo 7am - 11pm</p>
+                <div class="redes-sociales redes-pie">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-square pointer"></i></a>
+                    <a href="https://twitter.com/?lang=es"><i class="fab fa-twitter-square pointer"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram pointer"></i></a>
+                </div>
+            </div>
+            <div class="info">
+                <h3>Descuentos</h3>
+                <p>Fechas festivas - Perú 2023</p>
+                <!-- <input type="email" placeholder="Tu correo">
+                <input type="submit" class="btn btn-verde" value="Suscribirse"> -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Todos los derechos reservados &copy; 2023 Hecho a Mano, desarrollado por Yassira, Noelia y Xiomara </p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
